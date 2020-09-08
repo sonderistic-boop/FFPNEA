@@ -1,0 +1,5 @@
+JFK = {"airportname" : "John F Kennedy International", "airportcode" : "JFK", "distanceLPL" : 5326, "distanceBOH" : 5486}
+ORY = {"airportname" : "Paris-Orly", "airportcode" : "ORY", "distanceLPL" : 629, "distanceBOH" : 379}
+MAD = {"airportname" : "Adolfo Suarez Madrid-Barajas", "airportcode" : "MAD", "distanceLPL" : 1428, "distanceBOH" : 1151}
+AMS = {"airportname" : "Amsterdam Schiphol", "airportcode" : "AMS", "distanceLPL" : 526, "distanceBOH" : 489}
+CAI = {"airportname" : "Cairo International", "airportcode" : "CAI", "distanceLPL" : 3779, "distanceBOH" : 3584}
