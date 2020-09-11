@@ -1,24 +1,43 @@
 import time
 import sys
 import re
-def setup(): 
+
+global verification1
+
+def setup():
+    global verification1
     verification1 = False
 
 
-setup()
+def mainmenu():
+    global verification1
+    while verification1 == False:
+        verification1 = False
+        try:
+            option1 = int(input("1) Enter airport details \n2) Enter flight details \n3)Enter price plan and calculate profit \n4) Clear data \n5) Quit\n"))
+        except ValueError:
+            print("Invalid Input")
+        if (option1 > 5) and (option1 < 1):
+            print("Invalid Input")
+        else:
+            verification1 = True
+            print(option1)
+            return int(option1)
+        
 
+
+setup()
+mainmenu()
 
     
-print("\n-::Flight Feasability Program::-\n")
 
 
 
-while verification1 == False:
-    option1 = input("1) Enter airport details \n2) Enter flight details \n3)Enter price plan and calculate profit \n4) Clear data \n5) Quit\n")
-    if option1 != 1 or option1 != 2 or option1 != 3 or option1 != 4 or option1 != 5:
-        print("Invalid Input")
-    elif option1 == 1:
         
+if mainmenu() == 1:
+    print("YOOOO")
+
+print("\n-::Flight Feasability Program::-\n")
 
         
 
